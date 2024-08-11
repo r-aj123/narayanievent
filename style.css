@@ -105,11 +105,19 @@ p {
 	background-color: crimson;
 }
 .brand h1 {
-	font-size: 3rem;
+	font-size: 2.7rem;
 	text-transform: uppercase;
 	color: white;
 }
 .brand h1 span {
+	color: crimson;
+}
+.brand h3 {
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	color: white;
+}
+.brand h3 span {
 	color: crimson;
 }
 
@@ -314,6 +322,8 @@ p {
 #hero h1:nth-child(3) span {
 	animation-delay: 2.5s;
 }
+
+
 
 /* End Hero Section */
 
