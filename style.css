@@ -405,23 +405,23 @@ p {
 }
 /* End Services Section */
 
-/* Projects section */
-#projects .projects {
+/* Gallery section */
+#gallery .gallery {
 	flex-direction: column;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 0;
 }
-#projects .projects-header h1 {
+#gallery .gallery-header h1 {
 	margin-bottom: 50px;
 }
-#projects .all-projects {
+#gallery .all-gallery {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
-#projects .project-item {
+#gallery .gallery-item {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -431,7 +431,7 @@ p {
 	overflow: hidden;
 	border-radius: 10px;
 }
-#projects .project-info {
+#gallery .gallery-info {
 	padding: 30px;
 	flex-basis: 50%;
 	height: 100%;
@@ -442,25 +442,25 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	color: white;
 }
-#projects .project-info h1 {
+#gallery .gallery-info h1 {
 	font-size: 4rem;
 	font-weight: 500;
 }
-#projects .project-info h2 {
+#gallery .gallery-info h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
 	margin-top: 10px;
 }
-#projects .project-info p {
+#gallery .gallery-info p {
 	color: white;
 }
-#projects .project-img {
+#gallery .gallery-img {
 	flex-basis: 50%;
 	height: 300px;
 	overflow: hidden;
 	position: relative;
 }
-#projects .project-img:after {
+#gallery .gallery-img:after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -470,13 +470,13 @@ p {
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
 	opacity: 0;
 }
-#projects .project-img img {
+#gallery .gallery-img img {
 	transition: 0.3s ease transform;
 }
-#projects .project-item:hover .project-img img {
+#gallery .gallery-item:hover .gallery-img img {
 	transform: scale(1.1);
 }
-/* End Projects section */
+/* End Gallery section */
 .owname{
 	text-align:left;
 	font-weight:600;
